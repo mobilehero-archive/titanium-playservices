@@ -1,0 +1,63 @@
+{
+	"name": "@titanium/playservices",
+	"version": "0.0.1",
+	"description": "Native modules that allows you to use Google Play Services with Axway Titanium native mobile apps.",
+	"main": "index.js",
+	"scripts": {
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"postinstall": "tiapp-remove-module ti.playservices && tiapp-add-module ti.playservices android 16.1.0",
+		"postuninstall": "tiapp-remove-module ti.playservices",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/titanium-playservices"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/brentonhouse/titanium-playservices/issues"
+	},
+	"homepage": "https://github.com/brentonhouse/titanium-playservices#readme",
+	"keywords": [
+		"titanium",
+		"mobile",
+		"alloy",
+		"turbo",
+		"axway",
+		"appcelerator",
+		"ios",
+		"android",
+		"iphone",
+		"ipad",
+		"playservices",
+		"brentonhouse"
+	],
+	"titanium": {
+		"type": "native-module",
+		"platform": [
+			"android"
+		],
+		"native": [
+			{
+				"name": "ti.playservices",
+				"platform": "android",
+				"version": "16.1.4"
+			}
+		]
+	},
+	"dependencies": {
+		"@titanium/tiapp-xml": "^0.4.2"
+	}
+}
