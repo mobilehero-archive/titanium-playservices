@@ -1,12 +1,12 @@
 {
 	"name": "@titanium/playservices",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Native modules that allows you to use Google Play Services with Axway Titanium native mobile apps.",
 	"main": "index.js",
 	"scripts": {
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"postinstall": "tiapp-remove-module ti.playservices && tiapp-add-module ti.playservices android 16.1.4",
-		"postuninstall": "tiapp-remove-module ti.playservices",
+		"postinstall": "tiapp-install-module",
+		"postuninstall": "tiapp-uninstall-module",
 		"test": "npm install --ignore-scripts && npm run list-files"
 	},
 	"author": {
@@ -46,11 +46,11 @@
 	],
 	"titanium": {
 		"type": "native-module",
+		"version": "1.0.2",
 		"platform": {
 			"android": {
 				"moduleid": "titanium-playservices",
 				"name": "titanium-playservices",
-				"version": "16.1.4",
 				"apiversion": 4,
 				"architecture": "arm64-v8a armeabi-v7a x86",
 				"minsdk": "7.0.0",
@@ -59,6 +59,6 @@
 		}
 	},
 	"dependencies": {
-		"@titanium/tiapp-xml": "^0.7.2"
+		"@titanium/tiapp-xml": "^0.8.0"
 	}
 }
