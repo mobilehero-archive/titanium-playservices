@@ -10,8 +10,8 @@ license: Apache Public License v2
 copyright: Copyright (c) 2017-2019 by Axway Appcelerator
 
 # these should not be edited
-name: playservices
-moduleid: ti.playservices
+name: titanium-playservices
+moduleid: titanium-playservices
 guid: 32184149-411f-436b-92a8-c6ddb98a5fb6
 platform: android
 minsdk: 7.0.0

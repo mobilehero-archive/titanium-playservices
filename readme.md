@@ -7,8 +7,6 @@
 
 
 <p align="center">
-	<img src="https://lh4.ggpht.com/fX0oncZTwPIETqwHYjYzW2o44N3NqsAB_X16KTJzTDFK4UdcGrtKaMxuVtCX-3Ovzqw=w300" height="128" width="128">
-	<h1 align="center">ti.playservices</h1>
 	<h5 align="center">To provide Google Play Services for Titanium modules and applications</h6>
 	<div align="center">
 		<img src="https://github.com/appcelerator-modules/ti.playservices/raw/master/apidoc/diagram.png" height="170" width="449">
@@ -16,16 +14,16 @@
 </p>
 
 
-- [📝 Description](#-description)
-- [🚀 Getting Started](#-getting-started)
-	- [Install `@titanium/playservices` in root of project](#install-titaniumplayservices-in-root-of-project)
-- [Requirements](#requirements)
-- [Author](#author)
-- [License](#license)
-- [✨Features](#features)
-- [📚Learn More](#learn-more)
-- [📣 Feedback](#-feedback)
-- [©️ Legal](#️-legal)
+* [📝 Description](#-description)
+* [🚀 Getting Started](#-getting-started)
+	* [Install `@titanium/playservices` in root of project](#install-titaniumplayservices-in-root-of-project)
+* [Requirements](#requirements)
+* [Author](#author)
+* [License](#license)
+* [✨Features](#features)
+* [📚Learn More](#learn-more)
+* [📣 Feedback](#-feedback)
+* [©️ Legal](#️-legal)
 
 
 ## 📝 Description
@@ -48,11 +46,6 @@ Use `require()` to access the module from JavaScript:
 ```javascript
     const PlayServices = require('@titanium/playservices');
 ```
-**OR**
-
-```javascript
-    const PlayServices = require('ti.playservices');
-```
 
 The `PlayServices` variable is a reference to the module. Make API calls using this reference:
 
@@ -63,7 +56,7 @@ The `PlayServices` variable is a reference to the module. Make API calls using t
 It is highly recommended to detect availability issues before using Play Services:
 
 ```javascript
-const PlayServices = require('ti.playservices');
+const PlayServices = require('@titanium/playservices');
 
 const win = Ti.UI.createWindow({ backgroundColor: 'gray' });
 const btn = Ti.UI.createButton({ title: 'CHECK PLAY SERVICES' });
@@ -89,7 +82,7 @@ To include Play Services libraries with your native module include the module as
 <ti:module>
   ...
   <modules>
-    <module platform="android">ti.playservices</module>
+    <module platform="android">titanium-playservices</module>
   </modules>
   ...
 </ti:module>
