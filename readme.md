@@ -1,8 +1,8 @@
 
 <a href="#titaniumplayservices">
 	<p align="center">
-	<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
-	<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
 	</p>
 </a>
 
@@ -15,12 +15,13 @@
 
 
 <p align="center">
-	<h5 align="center">To provide Google Play Services for Titanium modules and applications</h6>
+	<h5 align="center">To provide Google Play Services for Titanium modules and applications</h5><br/>
 	<div align="center">
-		<img src="https://github.com/appcelerator-modules/ti.playservices/raw/master/apidoc/diagram.png" height="170" width="449">
+		<img src="https://github.com/appcelerator-modules/ti.playservices/raw/master/apidoc/diagram.png" width="75%">
 	</div>
 </p>
 
+---
 
 * [📝 Description](#-description)
 * [🚀 Getting Started](#-getting-started)
