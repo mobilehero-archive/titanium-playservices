@@ -9,7 +9,7 @@
 # @titanium/playservices
 
 [![@titanium/playservices](https://img.shields.io/npm/v/@titanium/playservices.png)](https://www.npmjs.com/package/@titanium/playservices)
-
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-playservices)](https://dependabot.com)
 
 > Native modules that allows you to use Native modules that allows you to use Google Play Services with Axway Titanium native mobile apps. with Axway Titanium native mobile apps.
 
