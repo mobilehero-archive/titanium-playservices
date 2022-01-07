@@ -1,3 +1,5 @@
+[//]: # (header-start)
+
 <a href="https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de">
 	<h1 align="center">
 	🪦 RIP Axway Amplify Titanium (2010 - 2022)
@@ -23,10 +25,14 @@
 <hr>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+[//]: # (header-end)
+
+
 # @titanium/playservices
 
 [![@titanium/playservices](https://img.shields.io/npm/v/@titanium/playservices.png)](https://www.npmjs.com/package/@titanium/playservices)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/titanium-playservices)](https://dependabot.com)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=mobilehero-archive/titanium-playservices)](https://dependabot.com)
 
 > Native modules that allows you to use Native modules that allows you to use Google Play Services with Axway Titanium native mobile apps. with Axway Titanium native mobile apps.
 
