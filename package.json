@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/playservices",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"description": "⭐  Axway Amplify module for using Google Play Services with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
